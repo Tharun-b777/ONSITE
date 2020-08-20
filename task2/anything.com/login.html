@@ -1,0 +1,12 @@
+
+<html>
+    <body>
+        <form action="index.php" method="POST">
+        Enter Username:<input type="text" name="username" required="required" value=<?php echo @$_COOKIE['cname'];?>> <br />
+        Enter password: <input type="password" name="pasword" required="required" value=<?php echo @$_COOKIE['cpass'];?>> <br />
+        <input type="submit" value="submit" /><br/>
+        rememberme<input type="checkbox" name="rm">
+        </form>
+        <a href="forgot.php">Forgotpassword</a>
+    </body>
+</html>
