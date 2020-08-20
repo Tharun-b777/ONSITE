@@ -14,11 +14,11 @@ function cook()
 //               } else { 
 //                 echo "Disabled.";
 //               } }
-    else
-    {etcookie("cname","");
-     etcookie("cpass","");
+    // else
+    // {etcookie("cname","");
+    //  etcookie("cpass","");
+    // }
     }
-
 }
 $output=shell_exec($command);
 
