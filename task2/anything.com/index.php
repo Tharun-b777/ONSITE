@@ -9,11 +9,11 @@ function cook()
  {     setcookie("cname",$name,time()+(60*60),'/');
       setcookie("cpass",$paswd,time()+(60*60),'/');
       echo $_COOKIE['cname'];
-if(count($_COOKIE) > 1) {      	
-                echo "Enabled.";
-              } else { 
-                echo "Disabled.";
-              } }
+// if(count($_COOKIE) > 1) {      	
+//                 echo "Enabled.";
+//               } else { 
+//                 echo "Disabled.";
+//               } }
     else
     {etcookie("cname","");
      etcookie("cpass","");
